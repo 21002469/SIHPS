@@ -3,20 +3,22 @@
 ## Register Number:212221040117
 ## Name:Pathakamuri Narendra
 ## Problem Title
+```
 Development of e-Portal for facilitating Case Management Hearing of various types of cases
+```
 ## Problem Description
 ```
 Case Management Hearing, known as a Pre-Trial Conference" in other jurisdictions". This application is used for managing case files since filing to disposal and to complete all its related processes. The CMS keeps the records of all the cases filed in Delhi High Court. The system has following features: Filing of Case, Caveat matching, Allocation of case, Daily Case Proceedings, Notice Generation, Case Transfer, Case Status Search, Report, etc.
 ```
 ## Problem Creater's Organization
+```
 Ministry of Law and Justice
-
+```
 ## Idea
 ```
 Develop an e-Portal to streamline the management of case files and proceedings from initial filing to final disposal. The portal aims to enhance efficiency, transparency, and accessibility in the judicial process by digitizing and automating various stages of Case Management Hearings (CMH), including filing, allocation, proceedings, and reporting.
 ```
 ## Proposed Solution / Architecture Diagram
-<img width="409" alt="image" src="https://github.com/user-attachments/assets/35f435ec-d400-4e4a-840d-91fbf79cc7a6">
 Frontend:
 ```
 User Interface for different stakeholders (Judges, Lawyers, Court Clerks)
@@ -28,16 +30,14 @@ Business Logic Layer managing workflows such as case allocation and caveat match
 APIs:
 RESTful APIs to enable communication between frontend and backend
 Integration APIs for connecting with external systems (e.g., government databases)
-
 Database:
-
 Relational Database (e.g., MySQL, PostgreSQL) for structured data storage
 Security:
 Authentication & Authorization mechanisms (OAuth, JWT)
 Data encryption (TLS/SSL) to ensure secure data transmission
 Role-based access control to restrict access based on user roles
 ```
-## Use Cases
+Use Cases
 ```
 Filing of Cases:
 Lawyers can file cases online, and the system will generate a unique case ID.
@@ -56,8 +56,7 @@ Provide a search interface to check the status of a case using various filters.
 Reporting:
 Generate and export reports on case statistics, pendency, and disposal rates.
 ```
-## Technology Stack
-Frontend:
+Technology Stack
 ```
 HTML5, CSS3, JavaScript (React.js, Angular, or Vue.js)
 UI frameworks like Bootstrap or Material UI for responsive design
@@ -78,13 +77,12 @@ Version Control:
 Git for version control
 GitHub/GitLab for repository management
 ```
-## Dependencies
+Dependencies
 ```
 External APIs:
 Integration with government databases for case validation and data fetching.
 Libraries & Frameworks:
 Frontend: React.js/Angular/Vue.js
-
 Backend: Express.js for Node.js or Spring Boot for Java
 ORM Libraries: Sequelize for Node.js, Hibernate for Java
 Third-Party Services:
