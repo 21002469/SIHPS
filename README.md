@@ -19,6 +19,8 @@ Ministry of Law and Justice
 Develop an e-Portal to streamline the management of case files and proceedings from initial filing to final disposal. The portal aims to enhance efficiency, transparency, and accessibility in the judicial process by digitizing and automating various stages of Case Management Hearings (CMH), including filing, allocation, proceedings, and reporting.
 ```
 ## Proposed Solution / Architecture Diagram
+![image](https://github.com/user-attachments/assets/f33a72fd-eb62-4cef-ac85-928b2caa9ab1)
+
 Frontend:
 ```
 User Interface for different stakeholders (Judges, Lawyers, Court Clerks)
